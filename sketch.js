@@ -29,11 +29,11 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255)
 
-	dropGround = createSprite(width/2, height-80, 20,100);
+	dropGround = createSprite(width/1.65, height-80, 20,100);
 	dropGround.shapeColor = color("red");
-	dropGroundside1 = createSprite(width/2.6, height-50,150,20);
+	dropGroundside1 = createSprite(width/2, height-50,150,20);
 	dropGroundside1 = color("red");
-	dropGround = createSprite(width/3.6, height-80, 20,100);
+	dropGround = createSprite(width/2.5, height-80, 20,100);
 	dropGround.shapeColor = color("red");
 	
 
